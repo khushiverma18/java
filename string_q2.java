@@ -3,7 +3,7 @@ class string_q2{
         String s="123456.5445";
         boolean numeric =true;
         try{
-            double num=Double.parseDouble("S");
+            double num=Double.parseDouble(S);
         }
         catch(NumberFormatException e){
             numeric =false;
